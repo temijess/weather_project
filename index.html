@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <section class="cities">
+        <span class="lag">Lagos</span>
+        <span class="par">Paris</span>
+        <span class="syd">Sydney</span>
+        <span class="lon">London</span>
+      </section>
+      <span>
+        <form id="searchCity">
+          <input
+            type="text"
+            id="enterCity"
+            name="city"
+            placeholder="Enter a city"
+            autocomplete="off"
+            autofocus="on"
+          />
+          <input type="submit" name="search" value="Search" class="sea" />
+          <input type="button" name="current" value="Current" class="cur" />
+        </form>
+      </span>
+
+      <h3>Asaba</h3>
+      <p class="mon" id="mon">
+        Monday 18:50
+      </p>
+      <p class="desc" id="desc">Clear</p>
+      <div class="today">
+        <span class="emo"> ☀️</span>
+        <span class="num" id="temperature"> 28</span>
+        <span class="cel" id="far">°C|°F</span>
+        <span class="pre" id="pre"> Precipitation: 35% </span><br />
+        <span class="win" id="wind"> Wind: 10km/hr </span>
+      </div>
+      <div class="days">
+        <span class="tue">Tue </span>
+        <span class="tue">Wed </span>
+        <span class="tue">Thur</span>
+        <span class="tue">Fri </span>
+        <span class="tue">Sat </span>
+      </div>
+      <div class="emoji">
+        <span class="sun">☁️</span>
+        <span class="sun">☀️</span>
+        <span class="sun">☀️</span>
+        <span class="sun">☀️</span>
+        <span class="sun">⛅</span>
+      </div>
+      <div class="temp">
+        <span class="hot">27°</span>
+        <span class="hot">25°</span>
+        <span class="hot">25°</span>
+        <span class="hot">24°</span>
+        <span class="hot">26°</span>
+      </div>
+
+      <button>Current Location</button>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
