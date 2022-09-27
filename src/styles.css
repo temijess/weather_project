@@ -1,0 +1,121 @@
+.main {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+.cities {
+  margin: 20px;
+}
+button {
+  margin: 0 auto;
+  display: block;
+  padding: 15px;
+  background-color: aqua;
+  margin-top: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: blue;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+.lag {
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(0, 153, 255);
+}
+.par {
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(0, 153, 255);
+}
+.syd {
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(0, 153, 255);
+}
+.lon {
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(0, 153, 255);
+}
+
+.sea {
+  padding: 12px;
+  background-color: rgb(0, 162, 255);
+}
+.cur {
+  padding: 12px;
+  background-color: rgb(67, 241, 13);
+}
+
+#enterCity {
+  padding: 12px;
+  width: 300px;
+}
+form {
+  margin: 30px;
+}
+h3 {
+  font-size: 35px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.mon {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.desc {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.days {
+  padding-bottom: 20px;
+}
+.tue {
+  padding: 30px;
+  font-size: 16px;
+}
+.emoji {
+  padding-bottom: 20px;
+}
+.sun {
+  padding: 20px;
+  font-size: 35px;
+}
+.hot {
+  padding: 31px;
+  font-size: 18px;
+}
+.cel {
+  margin-right: 280px;
+  vertical-align: top;
+}
+.num {
+  font-size: 55px;
+}
+.emo {
+  margin-left: 30px;
+  font-size: 25px;
+  vertical-align: top;
+}
+.pre {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.win {
+  margin-left: 450px;
+  font-size: 20px;
+  vertical-align: top;
+}
+.today {
+  margin-bottom: 30px;
+}
+.temp {
+  margin-bottom: 20px;
+}
