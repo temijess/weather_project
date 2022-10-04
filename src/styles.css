@@ -101,7 +101,8 @@ h3 {
 }
 .emo {
   margin-left: 30px;
-  font-size: 25px;
+  height: 55px;
+  width: 55px;
   vertical-align: top;
 }
 .pre {
@@ -109,12 +110,18 @@ h3 {
   vertical-align: middle;
 }
 .win {
-  margin-left: 450px;
+  margin-left: 470px;
   font-size: 20px;
   vertical-align: top;
 }
 .today {
   margin-bottom: 30px;
+}
+
+.today .active {
+  color: black;
+  text-decoration: none;
+  cursor: default;
 }
 .temp {
   margin-bottom: 20px;
