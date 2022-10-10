@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>weather</title>
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -44,28 +50,24 @@
         <span class="pre" id="pre"> Precipitation: 35% </span><br />
         <span class="win" id="wind"> Wind: 10km/hr </span>
       </div>
-      <div class="days">
-        <span class="tue">Tue </span>
-        <span class="tue">Wed </span>
-        <span class="tue">Thur</span>
-        <span class="tue">Fri </span>
-        <span class="tue">Sat </span>
+      <div class="forecast" id="weather-forecast">
+        <div class="row">
+          <div class="col-2">
+            <div class="days">Tue</div>
+            <img
+              src="https://icons.iconarchive.com/icons/dtafalonso/android-l/512/Chrome-icon.png"
+              ,
+              alt=""
+              ,
+              width="20px"
+            />
+            <div class="temp">
+              <span class="max-temp">15° </span
+              ><span class="min-temp"> 10°</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="emoji">
-        <span class="sun">☁️</span>
-        <span class="sun">☀️</span>
-        <span class="sun">☀️</span>
-        <span class="sun">☀️</span>
-        <span class="sun">⛅</span>
-      </div>
-      <div class="temp">
-        <span class="hot">27°</span>
-        <span class="hot">25°</span>
-        <span class="hot">25°</span>
-        <span class="hot">24°</span>
-        <span class="hot">26°</span>
-      </div>
-
       <button>Current Location</button>
 
       <a href="https://github.com/temijess/weather_project">open-source code</a>
